@@ -1,0 +1,32 @@
+/* custom */
+h2.card-title {
+	font-size: 1rem;
+}
+h2.card-title a {
+	text-decoration: none;
+	border-bottom: 1px dotted RGBA(var(--bs-emphasis-color-rgb),var(--bs-link-opacity,1))!important;
+}
+p.card-text {
+	font-size: 0.875rem;
+	--bs-text-opacity: 1;
+  color: var(--bs-secondary-color)!important
+}
+p a {
+	text-decoration: none;
+	border-bottom: 1px dotted RGBA(var(--bs-emphasis-color-rgb),var(--bs-link-opacity,1))!important;
+}
+li a {
+	text-decoration: none;
+	border-bottom: 1px dotted RGBA(var(--bs-emphasis-color-rgb),var(--bs-link-opacity,1))!important;
+}
+
+a[target="_blank"]::after {
+  content: "";
+  width: 1em;
+  height: 1em;
+  margin: 0 0 0.1em 0.2em;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAkklEQVR4nO2UQQ5AQAwA9xfEF/kDj5TwmxGJw0aiWpTYdO7bmd2KlIKgFFBQdsAeoALGTwKAGpg272QOwE5/cPMZaLwDekmezzMHJANH8lcCEOTuAZzIXQOQn31QC68EnMmt35Ap4PGd75EGuOxcO0Ajl84/EdBlv9faev52wArQSnL3AA0RQDEruMt/A4IgvcgCA5cUX2kh7I0AAAAASUVORK5CYII=) no-repeat;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
