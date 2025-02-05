@@ -1,1 +1,0 @@
-my personal photography website
